@@ -1,22 +1,31 @@
-import React, { Fragment } from 'react';
-import { Container, Row } from 'react-bootstrap';
+import React from 'react';
+import { Col, Container, Row } from 'react-bootstrap';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
 import './i18n';
 import './App.scss';
 
 import Header from './layout/Header';
+import NotFound from './layout/NotFound';
 import Contacts from './contacts/Contacts';
 import AddContact from './contacts/AddContact';
 
 const App = () => {
   return (
-    <Fragment>
+    <Router>
       <Header />
       <Container>
         <Row>
-          <AddContact />
+          <Col>
+            <Routes>
+              <Route path="/" element={<Contacts />} />
+              <Route path="/add_contact" element={<AddContact />} />
+              <Route path="*" element={<NotFound />} />
+            </Routes>
+          </Col>
         </Row>
       </Container>
-    </Fragment>
+    </Router>
   );
 };
 

@@ -8,9 +8,9 @@ const Header = () => {
   return (
     <Navbar bg="light" variant="light">
       <Container>
-        <Navbar.Brand href="#">{t('navi.main')}</Navbar.Brand>
+        <Navbar.Brand href="/">{t('navi.main')}</Navbar.Brand>
         <Nav className="me-auto">
-          <Nav.Link href="#">{t('navi.create_contact')}</Nav.Link>
+          <Nav.Link href="/add_contact">{t('navi.create_contact')}</Nav.Link>
         </Nav>
       </Container>
     </Navbar>
