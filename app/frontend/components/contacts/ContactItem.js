@@ -3,7 +3,7 @@ import { Card, ListGroup } from 'react-bootstrap';
 
 const ContactItem = ({ name, email }) => {
   return (
-    <Card style={{ width: '18rem' }}>
+    <Card style={{ width: '18rem' }} className="my-3">
       <Card.Header>{name}</Card.Header>
       <ListGroup variant="flush">
         <ListGroup.Item>{email}</ListGroup.Item>

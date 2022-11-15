@@ -32,7 +32,7 @@ const AddContact = () => {
 
   return (
     <Form onSubmit={onSubmit}>
-      <Form.Group controlId="name">
+      <Form.Group controlId="name" className="my-3 col-4">
         <Form.Label>{t('contact.name')}</Form.Label>
         <Form.Control
           name="name"
@@ -43,7 +43,7 @@ const AddContact = () => {
         />
       </Form.Group>
 
-      <Form.Group controlId="email">
+      <Form.Group controlId="email" className="my-3 col-4">
         <Form.Label>{t('contact.email')}</Form.Label>
         <Form.Control
           name="email"
@@ -53,7 +53,7 @@ const AddContact = () => {
           required
         />
       </Form.Group>
-      <Button variant="primary" type="submit">
+      <Button variant="primary" type="submit" className="my-3">
         {t('forms.submit')}
       </Button>
     </Form>
