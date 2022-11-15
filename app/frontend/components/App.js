@@ -1,13 +1,20 @@
 import React, { Fragment } from 'react';
+import { Container, Row } from 'react-bootstrap';
 import './i18n';
 import './App.scss';
 
 import Header from './layout/Header';
+import Contacts from './contacts/Contacts';
 
 const App = () => {
   return (
     <Fragment>
       <Header />
+      <Container>
+        <Row>
+          <Contacts />
+        </Row>
+      </Container>
     </Fragment>
   );
 };
