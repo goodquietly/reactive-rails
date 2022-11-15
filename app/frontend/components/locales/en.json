@@ -1,3 +1,6 @@
 {
-
+  "navi": {
+    "main": "Main",
+    "create_contact": "Create contact"
+  }
 }
