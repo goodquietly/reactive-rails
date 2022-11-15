@@ -13,7 +13,7 @@ i18n.use(initReactI18next).init({
       common: ru,
     },
   },
-  lng: 'en',
+  lng: 'ru',
 });
 
 export default i18n;

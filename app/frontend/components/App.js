@@ -5,6 +5,7 @@ import './App.scss';
 
 import Header from './layout/Header';
 import Contacts from './contacts/Contacts';
+import AddContact from './contacts/AddContact';
 
 const App = () => {
   return (
@@ -12,7 +13,7 @@ const App = () => {
       <Header />
       <Container>
         <Row>
-          <Contacts />
+          <AddContact />
         </Row>
       </Container>
     </Fragment>
