@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import './i18n';
 import './App.scss';
 
 import Header from './layout/Header';
