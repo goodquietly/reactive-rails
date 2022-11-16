@@ -1,24 +1,29 @@
-# README
+# Маленькая API позволяет создавать и хранить контакты(Имя и email)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Знакомсто с популярной `JS` библиотекой `React`.
 
-Things you may want to cover:
+### Используемые технологии.
 
-* Ruby version
+```
 
-* System dependencies
+- Ruby 3.0.1;
 
-* Configuration
+- Rails 6.1.6;
 
-* Database creation
+- БД Postgres;
 
-* Database initialization
+- react;
 
-* How to run the test suite
+- react-router;
 
-* Services (job queues, cache servers, search engines, etc.)
+- react-i18next;
 
-* Deployment instructions
+- react-bootstrap;
 
-* ...
+- axios;
+
+- hooks;
+
+- postman.
+
+```
