@@ -2,6 +2,50 @@
 
 Знакомсто с популярной `JS` библиотекой `React`.
 
+### Установка приложения:
+
+Установите `Bundler`:
+
+```
+gem install bundler
+```
+
+Склонируйте репозиторий:
+
+```
+git clone https://github.com/goodquietly/reactive-rails.git
+```
+
+Находясь в папке с игрой `cd reactive-rails`, установите библиотеки:
+
+```
+bundle install
+```
+
+Создайте БД:
+
+```
+bundle exec rake db:create
+```
+
+Выполните миграции БД:
+
+```
+bundle exec rake db:migrate
+```
+
+Запустите программу:
+
+```
+bundle exec rails s
+```
+
+В браузере перейдите по ссылке:
+
+```
+http://localhost:3000
+```
+
 ### Используемые технологии.
 
 ```
