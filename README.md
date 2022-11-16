@@ -34,6 +34,12 @@ bundle exec rake db:create
 bundle exec rake db:migrate
 ```
 
+При необходимости обновите `yarn`:
+
+```
+yarn install --check-files
+```
+
 Запустите программу:
 
 ```
